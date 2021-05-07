@@ -1,0 +1,5 @@
+1. download the repository.
+2. install python3 or above.
+3. command to execute ' python3 search_vaccine'
+
+note: if you want to change age of district, pls edit the code and run it. i am too lazy to add params
