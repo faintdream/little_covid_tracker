@@ -11,7 +11,7 @@ import json
 district = "315"
 
 # age could be either 18 or 45, depending on need
-age = 18
+age = 45
 
 # Enter the time interval for which you want the slots to be checked (in seconds) Default is 20 mins.
 time_interval = 1200
@@ -23,7 +23,7 @@ url = 'https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByDistri
 #import pdb; pdb.set_trace()
 
 while True:
-    print('--------',datetime.now(),'--------')
+    print('--------',datetime.now(),'AgeGroup {}'.format(age),'--------')
     msg_body = ''
     try:
         data = requests.get(url)
